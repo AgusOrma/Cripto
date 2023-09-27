@@ -1,0 +1,1308 @@
+{
+  "version": "2.0.6",
+  "summary": {
+    "title": "Modelo de amenazas SIU",
+    "owner": "Luciana Nimo",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Agustín Pessina"
+      },
+      {
+        "name": "Ezequiel Rodríguez"
+      },
+      {
+        "name": "Manuel Nuñez"
+      },
+      {
+        "name": "Agustín Ormazabal"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.6",
+        "cells": [
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "58c50f79-077b-4016-b456-48e5363b8742",
+            "labels": [
+              "Data Flow"
+            ],
+            "source": {
+              "cell": "e3461444-4a48-48e6-b977-e3ec55860f06"
+            },
+            "target": {
+              "cell": "3beb1f42-d63f-4ae9-ad74-11c1539731f7"
+            },
+            "vertices": [
+              {
+                "x": 1340,
+                "y": 270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow\n",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "7fdfcaca-7073-4587-adbf-54e2080ffe36",
+            "labels": [
+              "Data Flow\n"
+            ],
+            "source": {
+              "x": 1430,
+              "y": 390
+            },
+            "target": {
+              "cell": "e3461444-4a48-48e6-b977-e3ec55860f06"
+            },
+            "vertices": [
+              {
+                "x": 1410,
+                "y": 410
+              },
+              {
+                "x": 1330,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Datos",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "c925ba23-f215-4912-ac2e-165999e55bba",
+            "labels": [
+              "Datos"
+            ],
+            "source": {
+              "cell": "e3461444-4a48-48e6-b977-e3ec55860f06"
+            },
+            "target": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "vertices": [
+              {
+                "x": 890,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data request",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "ef1f0af7-9b85-4ea4-b01a-e561de51810f",
+            "labels": [
+              "Data request"
+            ],
+            "source": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "target": {
+              "cell": "e3461444-4a48-48e6-b977-e3ec55860f06"
+            },
+            "vertices": [
+              {
+                "x": 880,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login request",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "474b256b-1439-4b4c-879c-f368592f0a84",
+            "labels": [
+              "Login request"
+            ],
+            "source": {
+              "x": 630,
+              "y": 52
+            },
+            "target": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 120
+              },
+              {
+                "x": 720,
+                "y": 230
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login response",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "1a35942c-bee8-4870-bd1e-c670813c2ac0",
+            "labels": [
+              "Login response"
+            ],
+            "source": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "target": {
+              "x": 620,
+              "y": 90
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "strokeDasharray": "7 5",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Database boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "0ede967d-588e-4680-80b3-6da802ae9f4e",
+            "labels": [
+              "Database boundary"
+            ],
+            "source": {
+              "x": 400,
+              "y": 1000
+            },
+            "target": {
+              "x": 1100,
+              "y": 0
+            },
+            "vertices": [
+              {
+                "x": 770,
+                "y": 570
+              },
+              {
+                "x": 1080,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login request",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "2fe5b1da-eaa0-48fa-a643-695bbe50c573",
+            "labels": [
+              "Login request"
+            ],
+            "source": {
+              "x": 403,
+              "y": 132
+            },
+            "target": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "vertices": [
+              {
+                "x": 560,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login response",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "61ad709e-5b0d-4087-8cca-19557c57e496",
+            "labels": [
+              "Login response"
+            ],
+            "source": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "target": {
+              "cell": "91f2dd4f-b3e7-4102-a65a-3ee569bb6ce9"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login response",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "2ed42c9b-1dda-40e9-babb-bb65ae12f53e",
+            "labels": [
+              "Login response"
+            ],
+            "source": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "target": {
+              "x": 390,
+              "y": 170
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 260
+              },
+              {
+                "x": 440,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login request",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "cfb06bbd-a39e-4d31-879f-3afa010e4596",
+            "labels": [
+              "Login request"
+            ],
+            "source": {
+              "x": 330,
+              "y": 280
+            },
+            "target": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 380
+              },
+              {
+                "x": 510,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login request",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "64de5d8c-5094-4fc3-a82f-b2ee5767bae3",
+            "labels": [
+              "Login request"
+            ],
+            "source": {
+              "x": 183,
+              "y": 488
+            },
+            "target": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": 540
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login response",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "12ba0bb2-f158-4cca-b06b-a0fac09a6b23",
+            "labels": [
+              "Login response"
+            ],
+            "source": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "target": {
+              "x": 170,
+              "y": 520
+            },
+            "vertices": [
+              {
+                "x": 570,
+                "y": 540
+              },
+              {
+                "x": 460,
+                "y": 610
+              },
+              {
+                "x": 320,
+                "y": 590
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Public data request",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "92391027-d452-4eec-b53d-7f4ee0ca5d14",
+            "labels": [
+              "Public data request"
+            ],
+            "source": {
+              "x": 90,
+              "y": 660
+            },
+            "target": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 660
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Public data response",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "1244c295-e8aa-4316-8b49-9616220aaea9",
+            "labels": [
+              "Public data response"
+            ],
+            "source": {
+              "cell": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5"
+            },
+            "target": {
+              "x": 80,
+              "y": 690
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": 590
+              },
+              {
+                "x": 490,
+                "y": 730
+              },
+              {
+                "x": 260,
+                "y": 760
+              }
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "strokeDasharray": "7 5",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "User / Web boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "557cbb38-f65b-40a3-9f78-d006134ca05c",
+            "labels": [
+              "User / Web boundary"
+            ],
+            "source": {
+              "x": -60,
+              "y": 950
+            },
+            "target": {
+              "x": 810,
+              "y": -110
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 500
+              },
+              {
+                "x": 480,
+                "y": 310
+              },
+              {
+                "x": 600,
+                "y": 150
+              },
+              {
+                "x": 750,
+                "y": -40
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 520,
+              "y": 290
+            },
+            "size": {
+              "width": 230,
+              "height": 160
+            },
+            "attrs": {
+              "text": {
+                "text": "Servidor web"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 11,
+            "id": "9c5a1831-d0f0-4a67-9b38-3b6d5b1c2ed5",
+            "data": {
+              "type": "tm.Process",
+              "name": "Servidor web",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "e386ad09-8c09-4944-99dd-2def88133ff7",
+                  "title": "Caída del sistema",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "Caída del servidor, impidiendo el acceso de los usuarios al sitio",
+                  "mitigation": "Estrangulamiento, filtrado de IPs de atacantes conocidos, levantamiento de un firewall",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "5f41d273-f5a5-48e0-b15a-4faa465064f7",
+                  "title": "DNS Hijacking",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "El usuario es redirigido a una página distinta a la deseada, y termina accediendo a una web ilegítima y potencialmente dañina",
+                  "mitigation": "Limitar el número de personas que pueden acceder al DNS resolver.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "a045cff2-874f-4068-816e-89b91acf634a",
+                  "title": "Ingreso no autorizado a contenedores de Docker",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "Un atacante puede acceder a una de las máquinas virtuales en caso de explotar alguna de sus vulnerabilidades, y de esta manera afectar la seguridad de los contenedores que corren en ella.",
+                  "mitigation": "Implementación de un firewall",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                },
+                {
+                  "id": "153ae353-64b3-4da3-9e67-7f11d8cd5609",
+                  "title": "Carga incorrecta de notas",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "En el momento de cargas de notas, el alumno y el profesor no aprueban en conjunto la nota cargada por el departamento.",
+                  "mitigation": "Doble aprobación por parte del estudiante y finalmente del profesor a la hora de cargar la nota.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                },
+                {
+                  "id": "b62db5a0-61cb-4381-84e4-ff40add95dd1",
+                  "title": "Asignación incorrecta de rol",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Podría ocurrir una mala asignación de roles, por lo que un usuario puede tener privilegios que no debería.",
+                  "mitigation": "Aprobación por parte de dos o más administradores para los cambios relevantes.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
+                }
+              ],
+              "isBidirectional": null
+            }
+          },
+          {
+            "position": {
+              "x": 230,
+              "y": 220
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Estudiantes"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 12,
+            "id": "91f2dd4f-b3e7-4102-a65a-3ee569bb6ce9",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Estudiantes",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "5fc8763c-cede-4715-b927-e1a2b236218b",
+                  "title": "Ingreso indeseado por campus FIUBA",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Acceso no autorizado por parte de un tercero a la cuenta de otro usuario mediante el hackeo del campus FIUBA, el cual permite ingresar (además de la cuenta del siu guaraní) al SIU Guaraní. Por lo cual, el SIU Guaraní está sujeto a las vulnerabilidades que pueda tener el Campus FIUBA.",
+                  "mitigation": "Doble autenticación",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                },
+                {
+                  "id": "6dd6370d-5d7d-4000-b890-1c8385140943",
+                  "title": "Contraseña preestablecida",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Acceso no autorizado por parte de un tercero a la cuenta antes de que el propietario haya tenido conocimiento de ello, debido a la revelación de su número de DNI, que inicialmente se utilizó como contraseña.",
+                  "mitigation": "Asignar contraseña aleatoria de 8 caracteres.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "05106c8f-f2b4-49f1-b736-80f17f697399",
+                  "title": "Fuerza bruta",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Hackeo de la cuenta mediante la implementación de fuerza bruta, ya que no existe autenticación de dos pasos ni límite de intentos para ingresar al sistema.",
+                  "mitigation": "Doble autenticación. Límite de intentos para ingresar al sistema, con bloqueos temporales incrementales.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                },
+                {
+                  "id": "1201fc37-b413-4fb2-94ad-a68fadb6dd2b",
+                  "title": "Aviso de desinscripción a materias confuso para el usuario",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Al darse de baja, aparece un cartel de confirmación si te quieres dar de baja, pero en el mismo no informa la materia de la que te estás dando de baja.",
+                  "mitigation": "Pedir confirmación con el nombre de la materia de la que te querés desinscribir.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ],
+              "isBidirectional": false
+            }
+          },
+          {
+            "position": {
+              "x": 450,
+              "y": 20
+            },
+            "size": {
+              "width": 180,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "Administradores del SIU"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 13,
+            "id": "329fa554-3a72-46cf-896d-5b95492e14fc",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Administradores del SIU",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1040,
+              "y": 250
+            },
+            "size": {
+              "width": 270,
+              "height": 160
+            },
+            "attrs": {
+              "text": {
+                "text": "ARSAT Base de datos"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 14,
+            "id": "e3461444-4a48-48e6-b977-e3ec55860f06",
+            "data": {
+              "type": "tm.Process",
+              "name": "ARSAT Base de datos",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "5be394e2-8a56-4fc3-a9f7-bf96d4ddde38",
+                  "title": "Ingreso indeseado por campus FIUBA",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Acceso no autorizado por parte de un tercero a la cuenta de otro usuario mediante el hackeo del campus FIUBA, el cual permite ingresar (además de la cuenta del siu guaraní) al SIU Guaraní. Por lo cual, el SIU Guaraní está sujeto a las vulnerabilidades que pueda tener el Campus FIUBA.",
+                  "mitigation": "Doble autenticación",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                },
+                {
+                  "id": "953baa3c-7395-42e2-b48a-89dc61d76243",
+                  "title": "Alteración maliciosa de la información de la base de datos",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Alguien modifica la información de la base de datos sin permiso.",
+                  "mitigation": "Validación por firma digital de quien desea modificar la información. Pedido de aprobación por parte de dos personas al menos.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 1390,
+              "y": 330
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Datos"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 15,
+            "id": "3beb1f42-d63f-4ae9-ad74-11c1539731f7",
+            "data": {
+              "type": "tm.Store",
+              "name": "Datos",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 290,
+              "y": 110
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Profesores"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 16,
+            "id": "81115801-a28f-420b-abac-03cf749113a9",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Profesores",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "9d4492a5-a442-45d3-bd40-d674a8e75051",
+                  "title": "Ingreso indeseado por campus FIUBA",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Acceso no autorizado por parte de un tercero a la cuenta de otro usuario mediante el hackeo del campus FIUBA, el cual permite ingresar (además de la cuenta del siu guaraní) al SIU Guaraní. Por lo cual, el SIU Guaraní está sujeto a las vulnerabilidades que pueda tener el Campus FIUBA.",
+                  "mitigation": "Doble autenticación",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "9918ed40-6bbb-436c-8ac9-71f87a4f8800",
+                  "title": "Contraseña preestablecida",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Acceso no autorizado por parte de un tercero a la cuenta antes de que el propietario haya tenido conocimiento de ello, debido a la revelación de su número de DNI, que inicialmente se utilizó como contraseña.",
+                  "mitigation": "Asignar contraseña aleatoria de 8 caracteres.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                },
+                {
+                  "id": "651480fe-b26d-44a1-b66f-922e84f84e22",
+                  "title": "Fuerza bruta",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Hackeo de la cuenta mediante la implementación de fuerza bruta, ya que no existe autenticación de dos pasos ni límite de intentos para ingresar al sistema.",
+                  "mitigation": "Doble autenticación. Límite de intentos para ingresar al sistema, con bloqueos temporales incrementales.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                }
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 70,
+              "y": 460
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Personal de IT"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 18,
+            "id": "e4952460-3814-4b80-82f9-4fd43cfd1fbb",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Personal de IT",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -100,
+              "y": 630
+            },
+            "size": {
+              "width": 190,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Usuario sin credenciales"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 19,
+            "id": "c093474b-a7ad-4291-9c38-ce5157f5ba3d",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Usuario sin credenciales",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          }
+        ]
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 23
+  }
+}
